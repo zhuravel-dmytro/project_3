@@ -1,0 +1,19 @@
+{
+  "name": "project_3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dimas",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuravel22/project_3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhuravel22/project_3/issues"
+  },
+  "homepage": "https://github.com/zhuravel22/project_3#readme",
+  "description": ""
+}
