@@ -10,8 +10,7 @@ var gulp = require('gulp'),
 	 	return gulp.src('app/less/**/*.less')
 			.pipe(less())
 			.pipe(gulp.dest('app/css'))
-			.pipe(browserSync.reload({stream:true})); 
-			
+			.pipe(browserSync.reload({stream:true}));
 	});
 	 
 	

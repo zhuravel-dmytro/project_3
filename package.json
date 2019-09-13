@@ -15,5 +15,13 @@
     "url": "https://github.com/zhuravel22/project_3/issues"
   },
   "homepage": "https://github.com/zhuravel22/project_3#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "gulp-less": "^4.0.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  }
 }
