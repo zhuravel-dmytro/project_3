@@ -36,6 +36,14 @@ header {
   color: #1b1b1b;
   background-color: #ffc222;
   padding: 5px 20px 4px 50px;
+  position: relative;
+}
+.header_top .header_btn:before {
+  content: "\f0b1";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 20px;
+  color: #1b1b1b;
 }
 .header_top .header_contacts:after {
   content: "";
@@ -62,6 +70,13 @@ header {
 }
 .header_top .header_email {
   padding-left: 24px;
+}
+.header_top .header_email:before {
+  content: "\f003";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 0;
+  color: #ffc222;
 }
 .header_content {
   padding: 34px 0px 23px;

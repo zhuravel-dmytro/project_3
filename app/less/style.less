@@ -40,6 +40,14 @@ header{
         color: #1b1b1b;
         background-color: @bg-color;
         padding: 5px 20px 4px 50px;
+        position: relative;
+        &:before{
+            content: "\f0b1";
+            font-family: 'icomoon';
+            position: absolute;
+            left: 20px;
+            color: #1b1b1b;
+        }
     }
     .header_contacts:after{
         content: "";
@@ -66,6 +74,13 @@ header{
     }
     .header_email{
         padding-left: 24px;
+        &:before{
+            content: "\f003";
+            font-family: 'icomoon';
+            position: absolute;
+            left: 0;
+            color: @bg-color;
+        }
     }
 }
 
