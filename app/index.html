@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&display=swap&subset=cyrillic"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -20,7 +22,15 @@
                 <div class="header_contacts">
                     <a class="header_phone" href="tel:380963092145">+38 (096) 309 21 45</a>
                     <a class="header_email" href="">layou@gmail.com</a>
-                    <a class="header_btn" href="">Бесплатная консультация</a>
+                    <a data-fancybox data-src="#trueModal" data-modal="true" href="javascript:;" class="header_btn"
+                        href="">Бесплатная консультация</a>
+                    <!-- Modal window -->
+                    <div class="header_modal" id="trueModal">
+                        <h2>I'm a modal!</h2>
+                        <p>You can close me only by pressing custom button below.</p>
+                        <p>It would also be possible to prevent closing using `beforeClose` callback.</p>
+                        <p><button data-fancybox-close class="btn">Close me</button></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -44,6 +54,58 @@
             </div>
         </div>
     </header>
+    <section class="slider">
+        <div class="container">
+            <div class="slider_inner">
+                <div class="slider_item">
+                    <div class="slider_item-content">
+                        <div class="slider_title">
+                            КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+                        </div>
+                        <div class="slider_text">
+                            Полное прекращение существования юридического лица с сохранением легальности всей предыдущей
+                            деятельности.
+                        </div>
+                        <div class="slider_btn">
+                            Оставить заявку
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <div class="slider_item-content">
+                        <div class="slider_title">
+                            КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+                        </div>
+                        <div class="slider_text">
+                            Полное прекращение существования юридического лица с сохранением легальности всей предыдущей
+                            деятельности.
+                        </div>
+                        <div class="slider_btn">
+                            Оставить заявку
+                        </div>
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <div class="slider_item-content">
+                        <div class="slider_title">
+                            КОМПЛЕКСНОЕ ЗАКРЫТИЕ ПРЕДПРИЯТИЯ
+                        </div>
+                        <div class="slider_text">
+                            Полное прекращение существования юридического лица с сохранением легальности всей предыдущей
+                            деятельности.
+                        </div>
+                        <div class="slider_btn">
+                            Оставить заявку
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.js"></script>
 
 </html>
