@@ -1,5 +1,6 @@
 //@import "../../node_modules/normalize.css/normalize.css";
 @bg-color: #ffc222;
+@txt: #bdbdbe;
 // font-family: 'Roboto', sans-serif;
 // font-family: 'PT Serif', serif;
 
@@ -134,6 +135,30 @@ header{
                 font-weight: 500;
                 margin-bottom: 22px;
                 letter-spacing: 0.5px;
+            }
+            .slider_text{
+                color: @txt;
+                font-style: 18px;
+                font-family: 'PT Serif', serif;
+                line-height: 24px;
+                padding-bottom: 45px;
+            }
+            .slider_btn{
+                font-weight: 500;
+                color: #fff;
+                line-height: 24px;
+                border: 2px solid @bg-color;
+                border-right-width: 21px;
+                padding: 8px 25px;
+                display: inline-block;
+                position: relative;
+                &:before{
+                    content: "\f105";
+                    font-family: 'icomoon';
+                    position: absolute;
+                    right: 5px;
+                    color: #fff;
+                }
             }
         }
     }
