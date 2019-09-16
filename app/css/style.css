@@ -35,6 +35,7 @@ header {
   display: inline-block;
   position: relative;
   outline: none;
+  background: transparent;
 }
 .default_btn:before {
   content: "\f105";
@@ -192,17 +193,17 @@ header {
 .about {
   padding: 61px 0 34px;
 }
-.about .about_top {
+.top_box {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
 }
-.about .about_top .about_title-box {
+.top_box .title_box {
   max-width: 520px;
   padding-left: 140px;
   position: relative;
 }
-.about .about_top .about_title-box:before {
+.top_box .title_box:before {
   content: "";
   position: absolute;
   top: 10px;
@@ -211,34 +212,34 @@ header {
   width: 106px;
   height: 2px;
 }
-.about .about_top .about_title-box .about_title {
+.top_box .title_box .title_inner {
   font-size: 24px;
   font-weight: 500px;
   color: #212020;
   line-height: 24px;
 }
-.about .about_top .about_title-box .about_text {
+.top_box .title_box .text_inner {
   font-size: 14;
   line-height: 18px;
   letter-spacing: 0.1px;
   margin-top: 15px;
   font-family: 'PT Serif', serif;
 }
-.about .about_top .about_btn a {
+.top_box .btn_inner a {
   color: #373636;
   line-height: 24px;
   border: 3px solid #e6e6e6;
   padding: 5px 40px;
   letter-spacing: 0.25px;
 }
-.about .about_top .about_btn a:hover {
+.top_box .btn_inner a:hover {
   border-color: #ffc222;
 }
-.about .about_items {
+.about_items {
   display: flex;
   justify-content: space-between;
 }
-.about .about_items .about_item {
+.about_items .about_item {
   max-width: 360px;
   min-height: 375px;
   background-color: #f9f9f9;
@@ -246,26 +247,26 @@ header {
   padding: 22px 35px 38px;
   box-shadow: 3.5px 6.062px 24.3px 2.7px rgba(91, 89, 89, 0.14);
 }
-.about .about_items .about_item .about_item-title {
+.about_items .about_item .about_item-title {
   font-size: 18px;
   line-height: 24px;
   color: #212020;
   margin: 25px 0;
 }
-.about .about_items .about_item .about_title-text {
+.about_items .about_item .about_title-text {
   font-size: 14px;
   line-height: 18px;
   font-family: 'PT Serif', serif;
   letter-spacing: 0.1px;
   margin-bottom: 65px;
 }
-.about .about_item-btn .about_item-link {
+.about_item-btn .about_item-link {
   float: left;
   color: #212020;
   border-bottom: 1px solid #212020;
   margin-top: 12px;
 }
-.about .about_item-btn .items_btn {
+.about_item-btn .items_btn {
   color: #373636;
   float: right;
 }
@@ -296,6 +297,122 @@ header {
 .company .company_inner .items_btn {
   color: #fff;
   padding: 10px 26px;
+}
+.form {
+  padding-top: 41px;
+}
+.form .form_inner {
+  background-image: url(../images/form_bg.png);
+  background-repeat: no-repeat;
+  min-height: 460px;
+  background-position: bottom right;
+  padding-bottom: 40px;
+}
+.form .form_inner .form_box {
+  max-width: 850px;
+}
+.form .form_inner .form_box .form_box-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.form .form_inner .form_box .form_box-inner label,
+.form .form_inner .form_box .form_box-inner input,
+.form .form_inner .form_box .form_box-inner select,
+.form .form_inner .form_box .form_box-inner textarea {
+  display: block;
+  width: 100%;
+}
+.form .form_inner .form_box .form_box-inner label {
+  line-height: 36px;
+  color: #282828;
+}
+.form .form_inner .form_box .form_box-inner input {
+  margin-bottom: 4px;
+}
+.form .form_inner .form_box .form_box-inner input,
+.form .form_inner .form_box .form_box-inner select {
+  outline: none;
+  border: 1px solid #e6e6e6;
+  height: 40px;
+  padding: 0 15px;
+}
+.form .form_inner .form_box .form_box-inner select {
+  background: transparent;
+}
+.form .form_inner .form_box .form_box-inner textarea {
+  outline: none;
+  height: 207px;
+  border: 1px solid #e6e6e6;
+  padding: 15px 15px;
+  margin-bottom: 38px;
+  resize: none;
+}
+.form .form_inner .form_box .form_box-inner .form_box-left {
+  max-width: 260px;
+  width: 100%;
+}
+.form .form_inner .form_box .form_box-inner .form_box-right {
+  max-width: 555px;
+  width: 100%;
+  position: relative;
+}
+.form .form_inner .form_box .form_box-inner .form_box-right .form_btn {
+  position: absolute;
+  right: 0;
+}
+.form .form_inner .form_box .form_box-inner .form_box-right .form_btn:before {
+  color: #282828;
+}
+.about_us {
+  background-image: url(../images/about_us.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 287px;
+}
+.about_us .about_us-items {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 54px;
+  margin: 0 auto;
+}
+.about_us .about_us-items .about_us-item {
+  text-align: center;
+  max-width: 340px;
+  position: relative;
+}
+.about_us .about_us-items .about_us-item:before {
+  content: "";
+  position: absolute;
+  border: 2px solid #ffc222;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+}
+.about_us .about_us-items .about_us-item:after {
+  content: "\f00c";
+  font-family: 'icomoon';
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+}
+.about_us .about_us-items .about_us-item .about_us_title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  margin: 60px 0 22px;
+}
+.about_us .about_us-items .about_us-item .about_us_text {
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #d3d2d2;
+}
+.news {
+  padding: 60px 0 32px;
 }
 .header_modal {
   display: none;
