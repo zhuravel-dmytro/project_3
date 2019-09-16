@@ -109,6 +109,43 @@ header {
   background-position: center;
   min-height: 500px;
 }
+.slider .slider_inner {
+  position: relative;
+}
+.slider .slider_inner .slick-btn {
+  position: absolute;
+  border: 1px solid #fff;
+  top: 60%;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  background-color: #ffc222;
+  cursor: pointer;
+  outline: none;
+}
+.slider .slider_inner .slick-btn:before {
+  top: 50%;
+  left: 50%;
+  font-family: 'icomoon';
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.slider .slider_inner .slick-prev {
+  left: 0;
+}
+.slider .slider_inner .slick-prev:before {
+  content: "\f104";
+}
+.slider .slider_inner .slick-next {
+  right: 0;
+}
+.slider .slider_inner .slick-next:before {
+  content: "\f105";
+}
+.slider .slider_inner .slick-disabled {
+  background-color: transparent;
+  cursor: default;
+}
 .slider .slider_inner .slider_item-content {
   text-align: center;
   padding-top: 110px;
@@ -129,7 +166,7 @@ header {
   font-style: 18px;
   font-family: 'PT Serif', serif;
   line-height: 24px;
-  padding-bottom: 45px;
+  margin-bottom: 50px;
 }
 .slider .slider_inner .slider_item-content .slider_btn {
   font-weight: 500;
@@ -140,13 +177,18 @@ header {
   padding: 8px 25px;
   display: inline-block;
   position: relative;
+  outline: none;
 }
 .slider .slider_inner .slider_item-content .slider_btn:before {
   content: "\f105";
   font-family: 'icomoon';
   position: absolute;
-  right: 5px;
+  right: -12px;
   color: #fff;
+}
+.slider .slider_inner .slider_item-content .slider_btn:hover {
+  background-color: #ffc222;
+  cursor: pointer;
 }
 .header_modal {
   display: none;
