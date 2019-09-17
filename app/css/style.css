@@ -618,17 +618,19 @@ header {
 .header_modal,
 .footer_modal {
   display: none;
-  max-width: 600px;
+  max-width: 450px;
+  padding: 30px 50px 50px;
+  text-align: center;
 }
 .header_modal input,
 .footer_modal input {
   display: block;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   outline: none;
   padding: 0 10px;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 34px;
   border: 2px solid #d3d2d2;
 }
 .header_modal input:focus,
@@ -638,19 +640,21 @@ header {
 .header_modal h2,
 .footer_modal h2 {
   text-transform: uppercase;
+  line-height: 30px;
+  font-size: 18px;
 }
 .header_modal .modal_btn,
 .footer_modal .modal_btn {
+  width: 100%;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 34px;
   border: 2px solid #bdbdbe;
-  background-color: transparent;
+  background-color: #f9f9f9;
   padding: 3px 10px;
-  float: right;
 }
 .header_modal .modal_btn:hover,
 .footer_modal .modal_btn:hover {
-  border-color: #ffc222;
+  background-color: #ffc222;
 }
 .slider_modal {
   display: none;
