@@ -412,7 +412,208 @@ header {
   color: #d3d2d2;
 }
 .news {
-  padding: 60px 0 32px;
+  padding: 60px 0 107px;
+  background-color: #f9f9f9;
+}
+.news .news_inner {
+  display: flex;
+  justify-content: space-between;
+}
+.news .news_blog {
+  position: relative;
+  max-width: 260px;
+  width: 100%;
+}
+.news .news_blog .news_date {
+  position: absolute;
+  top: 0;
+  left: 14px;
+  height: 54px;
+  width: 47px;
+  background-color: #ffc222;
+  text-align: center;
+  padding-top: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+.news .news_blog .news_blog_title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  color: #242424;
+  letter-spacing: 0.5px;
+  margin-top: 17px;
+}
+.news .news_blog .news_blog_text {
+  font-family: 'PT Serif', serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #5e5e5e;
+  margin-top: 15px;
+}
+.news_slider {
+  max-width: 555px;
+  width: 100%;
+  background-color: #fff;
+}
+.news_slider .news_slider-inner {
+  position: relative;
+}
+.news_slider .news_slider-inner .slick-btn {
+  position: absolute;
+  border: 1px solid #fff;
+  top: 112%;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  background-color: #ffc222;
+  cursor: pointer;
+  outline: none;
+}
+.news_slider .news_slider-inner .slick-btn:before {
+  top: 50%;
+  left: 50%;
+  font-family: 'icomoon';
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+.news_slider .news_slider-inner .slick-prev {
+  right: 57px;
+}
+.news_slider .news_slider-inner .slick-prev:before {
+  content: "\f104";
+}
+.news_slider .news_slider-inner .slick-next {
+  right: 0;
+}
+.news_slider .news_slider-inner .slick-next:before {
+  content: "\f105";
+}
+.news_slider .news_slider-inner .slick-disabled {
+  background-color: transparent;
+  border-color: #dadada;
+  cursor: default;
+}
+.news_slider .news_slider-inner .slick-disabled:before {
+  color: #dadada;
+}
+.news-slider-item {
+  padding: 60px 34px 45px 70px;
+  box-shadow: 2.5px 4.33px 15.36px 0.64px rgba(128, 127, 127, 0.13);
+  outline: none;
+}
+.news_slider-title {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #242424;
+}
+.news_slider-text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #5e5e5e;
+  font-family: 'PT Serif', serif;
+  margin-top: 17px;
+}
+.news_slider-info {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #212020;
+  margin-top: 17px;
+}
+.footer_contant {
+  background-color: #595959;
+  padding: 26px 0 35px;
+}
+.footer_contant-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_info {
+  max-width: 350px;
+}
+.footer_info .footer_title {
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+.footer_info .footer_text {
+  font-size: 14px;
+  line-height: 18px;
+  color: #d3d2d2;
+  margin: 15px 0 23px;
+}
+.footer_info .footer_btn {
+  font-size: 16px;
+  line-height: 36px;
+  color: #1b1b1b;
+  background-color: #ffc222;
+  padding: 5px 20px 4px 50px;
+  position: relative;
+  outline: none;
+}
+.footer_info .footer_btn:before {
+  content: "\f0b1";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 20px;
+  color: #1b1b1b;
+}
+.footer_info ul li {
+  margin-top: 18px;
+}
+.footer_info .footer_phone,
+.footer_info .footer_email,
+.footer_info .footer_adress {
+  color: #fff;
+  letter-spacing: 0.25px;
+  position: relative;
+  padding-left: 30px;
+  line-height: 18px;
+  font-size: 16px;
+}
+.footer_info .footer_phone:before {
+  content: "\f095";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 3px;
+  color: #ffc222;
+}
+.footer_info .footer_email:before {
+  content: "\f003";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 3px;
+  color: #ffc222;
+}
+.footer_info .footer_adress:before {
+  content: "\f041";
+  font-family: 'icomoon';
+  position: absolute;
+  left: 3px;
+  color: #ffc222;
+}
+.footer_map {
+  padding-top: 10px;
+}
+.footer_map iframe {
+  width: 633px;
+  height: 253px;
+}
+.footer_copy {
+  background-color: #303030;
+  padding: 12px 0;
+}
+.footer_copy .copy_text {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
 }
 .header_modal {
   display: none;
