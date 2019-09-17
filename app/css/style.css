@@ -615,9 +615,42 @@ header {
   letter-spacing: 0.5px;
   line-height: 24px;
 }
-.header_modal {
+.header_modal,
+.footer_modal {
   display: none;
   max-width: 600px;
+}
+.header_modal input,
+.footer_modal input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 24px;
+  border: 2px solid #d3d2d2;
+}
+.header_modal input:focus,
+.footer_modal input:focus {
+  border-color: #ffc222;
+}
+.header_modal h2,
+.footer_modal h2 {
+  text-transform: uppercase;
+}
+.header_modal .modal_btn,
+.footer_modal .modal_btn {
+  font-size: 16px;
+  line-height: 24px;
+  border: 2px solid #bdbdbe;
+  background-color: transparent;
+  padding: 3px 10px;
+  float: right;
+}
+.header_modal .modal_btn:hover,
+.footer_modal .modal_btn:hover {
+  border-color: #ffc222;
 }
 .slider_modal {
   display: none;

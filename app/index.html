@@ -22,14 +22,16 @@
                 <div class="header_contacts">
                     <a class="header_phone" href="tel:380963092145">+38 (096) 309 21 45</a>
                     <a class="header_email" href="">layou@gmail.com</a>
-                    <a data-fancybox data-src="#trueModal" data-modal="true" href="javascript:;" class="header_btn"
-                        href="">Бесплатная консультация</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header_btn" href="">Бесплатная
+                        консультация</a>
                     <!-- Modal window -->
-                    <div class="header_modal" id="trueModal">
-                        <h2>I'm a modal!</h2>
-                        <p>You can close me only by pressing custom button below.</p>
-                        <p>It would also be possible to prevent closing using `beforeClose` callback.</p>
-                        <p><button data-fancybox-close class="btn">Close me</button></p>
+                    <div class="header_modal" id="modal">
+                        <h2>Записаться на консультацию</h2>
+                        <form >
+                           <input placeholder= "Ваше имя"type="text">
+                           <input placeholder= "номер телефона"type="text">
+                            <button type="submit" class="modal_btn">Отправить</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -394,22 +396,23 @@
                             деятельности.
                         </div>
                         <div class="footer_contacts">
-                            <a data-fancybox data-src="#trueModal" data-modal="true" href="javascript:;"
+                            <a data-fancybox data-src="#modal" href="javascript:;"
                                 class="footer_btn" href="">Бесплатная консультация</a>
-                            <!-- Modal window -->
-                            <div class="header_modal" id="trueModal">
-                                <h2>I'm a modal!</h2>
-                                <p>You can close me only by pressing custom button below.</p>
-                                <p>It would also be possible to prevent closing using `beforeClose` callback.</p>
-                                <p><button data-fancybox-close class="btn">Close me</button></p>
-                            </div>
+                            
+                                <!-- Modal window -->
+                                <div class="header_modal" id="modal">
+                                    <h2>Записаться на консультацию</h2>
+                                    <form >
+                                       <input placeholder= "Ваше имя"type="text">
+                                       <input placeholder= "номер телефона"type="text">
+                                        <button type="submit" class="modal_btn">Отправить</button>
+                                    </form>
+                                </div>
                             <ul>
                                 <li><a class="footer_phone" href="tel:380963092145">+38 (096) 309 21 45</a></li>
                                 <li><a class="footer_email" href="">layou@gmail.com</a></li>
                                 <li><a class="footer_adress" href="">Киев, ул.Пушиной, 13</a></li>
                             </ul>
-
-
                         </div>
                     </div>
                     <div class="footer_map">
