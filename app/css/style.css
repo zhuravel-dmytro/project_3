@@ -17,6 +17,7 @@ body {
   font-weight: 400;
   line-height: 18px;
   color: #5e5e5e;
+  overflow-x: hidden;
 }
 header {
   font-family: 'Roboto', sans-serif;
@@ -43,6 +44,10 @@ header {
   position: absolute;
   right: -12px;
   color: #fff;
+}
+.header_btn-menu {
+  display: none;
+  font-size: 28px;
 }
 .header_top {
   background-color: #303030;
@@ -104,9 +109,6 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.header_content .menu li {
-  display: inline-block;
-}
 .header_content .menu a {
   color: #323232;
   font-size: 16px;
@@ -117,6 +119,9 @@ header {
 .header_content .menu a:hover {
   border-color: #ffc222;
   transition: all 0.3s;
+}
+.header_content .menu li {
+  display: inline;
 }
 .header_content .menu li + li {
   padding-left: 10px;
@@ -165,13 +170,13 @@ header {
   background-color: transparent;
   cursor: default;
 }
-.slider .slider_inner .slider_item-content {
+.slider_item-content {
   text-align: center;
   padding-top: 110px;
   max-width: 665px;
   margin: 0 auto;
 }
-.slider .slider_inner .slider_item-content .slider_title {
+.slider_item-content .slider_title {
   color: #fff;
   font-size: 30px;
   line-height: 36px;
@@ -180,14 +185,14 @@ header {
   margin-bottom: 22px;
   letter-spacing: 0.5px;
 }
-.slider .slider_inner .slider_item-content .slider_text {
+.slider_item-content .slider_text {
   color: #bdbdbe;
   font-style: 18px;
   font-family: 'PT Serif', serif;
   line-height: 24px;
   margin-bottom: 50px;
 }
-.slider .slider_inner .slider_item-content .slider_btn {
+.slider_item-content .slider_btn {
   color: #fff;
 }
 .about {
