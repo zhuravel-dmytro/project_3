@@ -306,45 +306,45 @@ header {
 .form {
   padding-top: 41px;
 }
-.form .form_inner {
+.form_inner {
   background-image: url(../images/form_bg.png);
   background-repeat: no-repeat;
   min-height: 460px;
   background-position: bottom right;
   padding-bottom: 40px;
 }
-.form .form_inner .form_box {
+.form_inner .form_box {
   max-width: 850px;
 }
-.form .form_inner .form_box .form_box-inner {
+.form_inner .form_box .form_box-inner {
   display: flex;
   justify-content: space-between;
 }
-.form .form_inner .form_box .form_box-inner label,
-.form .form_inner .form_box .form_box-inner input,
-.form .form_inner .form_box .form_box-inner select,
-.form .form_inner .form_box .form_box-inner textarea {
+.form_inner .form_box .form_box-inner label,
+.form_inner .form_box .form_box-inner input,
+.form_inner .form_box .form_box-inner select,
+.form_inner .form_box .form_box-inner textarea {
   display: block;
   width: 100%;
 }
-.form .form_inner .form_box .form_box-inner label {
+.form_inner .form_box .form_box-inner label {
   line-height: 36px;
   color: #282828;
 }
-.form .form_inner .form_box .form_box-inner input {
+.form_inner .form_box .form_box-inner input {
   margin-bottom: 4px;
 }
-.form .form_inner .form_box .form_box-inner input,
-.form .form_inner .form_box .form_box-inner select {
+.form_inner .form_box .form_box-inner input,
+.form_inner .form_box .form_box-inner select {
   outline: none;
   border: 1px solid #e6e6e6;
   height: 40px;
   padding: 0 15px;
 }
-.form .form_inner .form_box .form_box-inner select {
+.form_inner .form_box .form_box-inner select {
   background: transparent;
 }
-.form .form_inner .form_box .form_box-inner textarea {
+.form_inner .form_box .form_box-inner textarea {
   outline: none;
   height: 207px;
   border: 1px solid #e6e6e6;
@@ -352,20 +352,20 @@ header {
   margin-bottom: 38px;
   resize: none;
 }
-.form .form_inner .form_box .form_box-inner .form_box-left {
+.form_inner .form_box .form_box-inner .form_box-left {
   max-width: 260px;
   width: 100%;
 }
-.form .form_inner .form_box .form_box-inner .form_box-right {
+.form_inner .form_box .form_box-inner .form_box-right {
   max-width: 555px;
   width: 100%;
   position: relative;
 }
-.form .form_inner .form_box .form_box-inner .form_box-right .form_btn {
+.form_inner .form_box .form_box-inner .form_box-right .form_btn {
   position: absolute;
   right: 0;
 }
-.form .form_inner .form_box .form_box-inner .form_box-right .form_btn:before {
+.form_inner .form_box .form_box-inner .form_box-right .form_btn:before {
   color: #282828;
 }
 .about_us {

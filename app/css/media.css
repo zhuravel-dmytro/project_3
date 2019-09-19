@@ -10,6 +10,12 @@
   .about_items .about_item .about_title-text {
     margin-bottom: 25px;
   }
+  .form_inner {
+    background-image: none;
+  }
+  .form_inner .form_box {
+    margin: auto;
+  }
   .company .company_inner {
     text-align: center;
     max-width: 100%;
@@ -33,6 +39,24 @@
   .btn_inner {
     text-align: center;
   }
+}
+.form_inner {
+  padding-bottom: 70px;
+}
+.form_inner .form_box .form_box-inner {
+  display: block;
+}
+.form_inner .form_box .form_box-inner .form_box-left,
+.form_inner .form_box .form_box-inner .form_box-right {
+  margin: 0 auto;
+  text-align: center;
+  max-width: none;
+  width: 80%;
+}
+.form_inner .form_box .form_box-inner .form_box-right .form_btn {
+  right: 0;
+  left: 0;
+  width: 100%;
 }
 @media (max-width: 700px) {
   .header_contacts {

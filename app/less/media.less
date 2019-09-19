@@ -13,9 +13,19 @@
         }
     }
 
+    .form_inner {
+        background-image: none;
+
+        .form_box {
+            margin: auto;
+
+            .form_box-inner {}
+        }
+    }
+
     .company .company_inner {
         text-align: center;
-        max-width: 100%;
+        max-width : 100%;
     }
 }
 
@@ -25,21 +35,48 @@
             display: none !important;
         }
     }
+
     .top_box {
         display: block;
+
         .title_box {
             padding-left: 0;
-            text-align: center;
-            margin: 0 auto 30px;
+            text-align  : center;
+            margin      : 0 auto 30px;
+
             &:before {
                 display: none;
             }
         }
     }
-    .btn_inner{
+
+    .btn_inner {
         text-align: center;
     }
 }
+
+.form_inner {
+    padding-bottom: 70px;
+    .form_box {
+        .form_box-inner {
+            display: block;
+
+            .form_box-left,
+            .form_box-right {
+                margin    : 0 auto;
+                text-align: center;
+                max-width : none;
+                width     : 80%;
+            }
+            .form_box-right .form_btn {
+                right: 0;
+                left : 0;
+                width: 100%;
+            }
+        }
+    }
+}
+
 
 
 @media (max-width: 700px) {
@@ -86,6 +123,7 @@
             border-bottom   : 1px solid #fff;
         }
     }
+
     .about_items .about_item {
         max-width : 100%;
         min-height: 375px;
