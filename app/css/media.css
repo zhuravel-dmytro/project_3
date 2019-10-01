@@ -29,12 +29,12 @@
   }
   .news_slider {
     max-width: none;
-    width: 80%;
+    width: 100%;
     margin: 0 auto 100px;
   }
   .news .news_blog {
     max-width: none;
-    width: 80%;
+    width: 100%;
     margin-bottom: 25px;
     background-color: #fff;
   }
