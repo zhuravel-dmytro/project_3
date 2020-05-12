@@ -1,0 +1,52 @@
+@import "vars";
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+:hover{
+    outline: none;
+    transition-delay: .1s;
+}
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    max-width: 1170px;
+}
+ul,
+li {
+    margin    : 0;
+    padding   : 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display        : inline-block;
+    outline: none;
+}
+.button{
+    color: #fff;
+    font-size: 14px;
+    line-height: 48px;
+    text-transform: uppercase;
+    border: 1px solid #45454a;
+    border-radius: 5px;
+    padding: 0 30px;
+    margin-right: 20px;
+    &:hover{
+        background-color: #008ed6;
+        text-decoration: none;
+        color: #fff;
+    }
+}
+    .title{
+        font-size: 14px;
+        color: #0476b1;
+        text-transform: uppercase;
+    }
